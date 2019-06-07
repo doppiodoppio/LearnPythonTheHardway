@@ -71,7 +71,6 @@ try:
         
         for snippet in snippets:
             phrase = PHRASES[snippet]
-            print(convert (snippet, phrase))
             question, answer = convert(snippet, phrase)
             if PHRASE_FIRST:
                 question, answer = answer, question
